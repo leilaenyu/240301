@@ -1,0 +1,129 @@
+#header{
+    height: 76.8px;
+    z-index: 2000;
+    position: fixed;
+    width: 100%;
+    max-width: 480px;
+    left:0%;
+    right:0%;
+    margin: auto;
+    background-color: rgb(225, 225, 225);
+}
+header{
+    display: block;
+}
+
+body{
+    background-color: rgb(225, 225, 225);
+    height: 100%;
+    z-index: 2000;
+    position: fixed;
+    width: 100%;
+    max-width: 480px;
+    left:0%;
+    right:0%;
+    margin: auto;
+}
+.Logo{
+    position: absolute;
+    top: 10px; 
+    left: 20px;
+}
+.line-group {
+    position: absolute;
+    top: 25px; 
+    right: 20px;
+  }
+.line {
+    width: 30px;
+    height: 4px;
+    background-color: white;
+    margin-bottom: 8px;
+  }
+.god-1{
+    position: absolute;
+    top: 200px; 
+    left: 40px;
+}
+.god-1 :hover{
+    transform: scale(1.05);
+    transition: all 0.3s;
+}
+.god-2{
+    position: absolute;
+    top: 200px; 
+    right: 40px;
+}
+.god-2 :hover{
+    transform: scale(1.05);
+    transition: all 0.3s;
+}
+.god-3{
+    position: absolute;
+    bottom: 120px; 
+    left: 40px;
+}
+.god-3 :hover{
+    transform: scale(1.05);
+    transition: all 0.3s;
+}
+.god-4{
+    position: absolute;
+    bottom: 120px; 
+    right: 40px;
+}
+.god-4 :hover{
+    transform: scale(1.05);
+    transition: all 0.3s;
+}
+.col-x1-x2{
+    margin-left: 16.6%;
+}
+.col-x1-8{
+    flex: 0 0 66.6%;
+    max-width: 66.6%;
+}
+.col-12{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.col-12, .col-6, .col-md-3, .col-md-6, .col-sm-4, .col-sm-8, .col-xl-8{
+    position: relative;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.my-2{
+    margin-bottom: 0.5rem !important;
+    margin-top: 0.5rem !important;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+#left{
+    cursor: pointer;
+}
+.blocks{
+    min-height: 200px;
+    transform-style: preserve-3d;
+    position: relative;
+    display: block;
+}
+.block{
+    position: absolute;
+    border-radius: 8px;
+    padding: 0.5em 0;
+    display: block;
+}
+.n{
+    z-index: 2;
+}
+.p{
+    z-index: 1;
+    transform: rotateX(-180deg) translateZ(1px);
+}
+
+  
